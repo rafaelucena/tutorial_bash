@@ -1,5 +1,5 @@
 ---
-title: BASH
+title: BASH-pt/br
 ---
 
 ## O que é BASH?
