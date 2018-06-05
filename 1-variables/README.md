@@ -41,6 +41,7 @@ O comando `echo` em BASH é utilizado normalmente para exibir dados na tela.
 O próximo exemplo vai mostrar como exibir texto e uma variável:
 ````bash
 txt='github.com';
+ 
 echo "Eu amo o ${txt}!";
 ````
 
@@ -48,6 +49,7 @@ O próximo exemplo vai produzir o mesmo resultado do que o exemplo anterior:
 ````bash
 txt='github.com';
 txt="Eu amo o ${txt}!";
+ 
 echo "${txt}";
 ````
 
@@ -56,9 +58,9 @@ O próximo exemplo vai produzir a soma de duas variáveis:
 x=5;
 y=4;
 z=0;
-
+ 
 ((z=${x} + ${y}))
-
+ 
 echo ${z}; 
 ````
 
